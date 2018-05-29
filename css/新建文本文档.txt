@@ -1,0 +1,38 @@
+1. 查看本地分支
+git branch
+
+1.2 查看远程分支
+git branch -a
+
+2. 切换分支
+git checkout [xx]
+---
+git checkout  openApi
+git checkout  master
+git pull https://git.coding.net/957816/classboard_web.git openApi
+
+3. 
+git pull openApi
+
+--- ---
+git config --global user.email  "xxx@qq.com"
+git config --global user.name "xxxx"
+
+
+git status
+---
+git add <files>
+---
+git commit -m 'xxx'
+---
+git push
+
+/* *** *** */
+4.
+git clone https://git.coding.net/957816/classboard_web.git -b openApi
+/* *** *** *** *** *** *** *** *** *** *** *** *** */
+
+npm ll -g -depth 0
+
+5. 查看远程引用的完整列表:
+git ls-remote
